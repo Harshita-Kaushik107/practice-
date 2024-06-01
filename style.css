@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: cursive;
+    background-color: lightsteelblue;
+}
+title{
+    color: rgb(161, 42, 165);
+}
+a{
+    color:chartreuse;
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover{
+    background-color: black;
+    color: darkred;
+    cursor: progress;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.hey img{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.image img {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+.nav-bar {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.50rem;
+}
+.har {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.delhi {
+    width: 20vw;
+}
+.har h3 {
+    font-size: 2.1rem;
+    color: rgb(43, 226, 73);;
+    font-weight: 400;
+}
+.shita {
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px
+}
+.shita .shita-kr{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.shita .shita-kr p {
+    color: gray;
+    border-right: 1px solid gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.shita .shita-kr input {
+   
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.shita .shita-kr:first-child{
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+.shita .shita-kr:last-child{
+    width: 70%;
+    color: gray;
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.sec .sec-1{
+    position: relative;
+    overflow: hidden;
+    width: 15rem;
+    margin: 5px 5px;
+    border-radius: 12px;
+    background: rgb(223, 56, 56);
+    border: 1px solid rgb(145, 4, 4);
+    box-shadow: 2px 2px 20px black;
+}
+.sec .sec-1 img {
+    width: 100%;
+    border: 1px solid rgb(110, 20, 20);
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: -1;
+}
+.sec .sec-1 .sec-1-item {
+    position: absolute;
+    bottom: 4px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(204, 86, 86);
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.sec .sec-1 .sec-1-item p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;    
+}
+.sec .sec-1:hover {
+    box-shadow: 0px 1px 2px violet;
+}
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.sec-2 .sec-2-1 {
+    position: relative;
+    width: 15rem;
+    margin: 3px 30px;
+    overflow: hidden;
+}
+.sec-2 .sec-2-1 img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+.sec-2 .sec-2-1 .brands {
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+.sec-2 .sec-2-1 .brands p {
+    text-align: center;
+    font-size: 1.2rem; 
+}
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 75px;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 226, 73);
+    color: rgb(63, 129, 9);
+}
+.main{
+ margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+   }
+   .title{
+    text-align: center;
+     padding: 10px;
+     background: mediumturquoise;
+   }
+   h1 {
+     font-size: 20px;
+    }
+   .des{
+     padding: 3px;
+     text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background: rgb(223, 56, 56);
+   }
+   button
+   {
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+     background: lightblue;
+    }
+   button:hover{
+     background-color: black;
+     color: teal;
+     cursor: pointer;
+     background: white;
+   }
+   .kau{
+    display: block;
+    margin: auto;
+   }
